@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public abstract class Trader<T> {
+public  class Trader<T> {
     private final List<T> inventory;
     private final List<T> wishlist;
     private int money;
